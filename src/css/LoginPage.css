@@ -1,0 +1,72 @@
+body {
+    background-image: url("../image/LoginPageBackGround.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0; /* Varsayılan margin'i sıfırla */
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Dikey ortalama */
+    justify-content: center; /* Yatay ortalama */
+    height: 100vh; /* Tam ekran yüksekliği */
+}
+
+.input-box {
+    position: relative;
+    border: 1px solid #ccc; /* Kenarlık */
+    border-radius: 8px; /* Kenar yuvarlama */
+    padding: 20px; /* İçerik dolgu alanı */
+    max-width: 90%; /* Maksimum genişlik */
+    width: 400px; /* Genişlik ayarı */
+    height: 400px; /* Yükseklik ayarı */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    display: flex; /* Flexbox kullanımı */
+    flex-direction: column; /* Dikey düzen */
+    align-items: center; /* İçerikleri ortalama */
+    justify-content: center; /* İçerikleri ortalama */
+}
+
+.blur-background {
+    position: absolute; /* Mutlak konumlandırma */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.608); /* Hafif opak bir arka plan */
+    z-index: 1; /* Üstte olmasını sağlar */
+    border-radius: 8px; /* Kenar yuvarlama */
+}
+
+.input-Div {
+    width: 100%; /* Genişliği ayarla */
+    margin-bottom: 10px; /* Alt boşluk ekle */
+    margin-top: 15%;
+}
+
+.button {
+    background-color: #e9bfff;
+    color: #1e1732;
+    padding: 15px 30px; /* İçerik dolgu alanı */
+    border: none; /* Kenarlık yok */
+    border-radius: 5px; /* Kenar yuvarlama */
+    cursor: pointer; /* İmleci işaretçi yap */
+    transition: background-color 0.3s ease;
+    margin-top: 100px;
+}
+
+.button:hover {
+    background-color: #ffd8ff;
+    color: #1e1732;
+}
+
+.input-hizala {
+    display: flex;               /* Flexbox kullan */
+    flex-direction: column;      /* Dikey yönde 
+    align-items: center;         /* Yatay ortalama */
+    justify-content: center;     /* Dikey ortalama */
+    height: 100%;  
+}
