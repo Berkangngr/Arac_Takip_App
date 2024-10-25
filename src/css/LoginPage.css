@@ -70,3 +70,8 @@ body {
     justify-content: center;     /* Dikey ortalama */
     height: 100%;  
 }
+
+.input-error {
+    font-size: 15px;
+    color: rgb(167, 48, 48);
+}
